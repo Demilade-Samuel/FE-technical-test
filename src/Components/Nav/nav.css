@@ -1,0 +1,62 @@
+.navv {
+	padding: 25px 0 !important;
+	position: fixed !important;
+	top: 0;
+	z-index: 99999;
+	width: 100vw !important;
+	background-color: white;
+	transition: opacity 1s ease;
+}
+.navbg {
+	background-color: white;
+}
+.navbar-collapse {
+	width: 100vw !important;
+	background-color: white !important;
+}
+.navbar-brand {
+	font-weight: 900 !important;
+	font-size: 1.3rem !important;
+}
+.nav-link {
+	font-size: 1rem !important;
+}
+.nav-item {
+	margin-right: 25px;
+}
+.nav-link:hover {
+	color: #0052ff !important;
+}
+.nav-link:focus {
+	color: #0052ff !important;
+}
+.loginBTN {
+	background-color: #0052ff !important;
+	font-weight: 600 !important;
+	color: white !important;
+	padding: 10px 28px !important;
+	border-radius: 25px !important;
+	font-size: 0.9rem !important;
+}
+.loginBTN:hover {
+	color: #0052ff !important;
+	font-size: 1rem !important;
+	transition: 0.3s;
+	background-color: white;
+	box-shadow: 2px 2px 2px #0052ff;
+	background-color: white !important;
+}
+.navbar-toggler {
+	width: fit-content !important;
+	padding: 0 !important;
+	outline: none !important;
+	border: transparent !important;
+	box-shadow: none !important;
+}
+.navbar-toggler:focus {
+	outline: none !important;
+	border: transparent !important;
+}
+.hamburger {
+	font-size: 1.8rem !important;
+}

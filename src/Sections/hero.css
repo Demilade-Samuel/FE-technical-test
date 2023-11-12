@@ -1,0 +1,59 @@
+.heading {
+	text-align: left !important;
+	padding: 40px 0px 0px 0px !important;
+	/* font-size: 7rem !important; */
+}
+h1 {
+	font-weight: 700 !important;
+	font-size: 3.7rem !important;
+}
+.getStartedBTN {
+	background-color: #0052ff !important;
+	font-weight: 600 !important;
+	color: white !important;
+	padding: 12px 32px !important;
+	border-radius: 12px !important;
+	font-size: 0.9rem !important;
+	margin-bottom: 50px;
+}
+.getStartedBTN:hover {
+	color: #0052ff !important;
+	font-size: 1rem !important;
+	transition: 0.4s;
+	background-color: white;
+	box-shadow: 2px 2px 2px #0052ff;
+	background-color: white !important;
+	border: 2px solid #0052ff !important;
+}
+.siContainer {
+	position: relative;
+}
+.sendInvoice {
+	width: 100%;
+	text-align: left;
+	padding: 0px 25px;
+	height: 20%;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	text-align: left;
+	bottom: 0;
+	position: absolute;
+	background-color: #0052ff;
+	font-weight: 700;
+	color: white;
+	font-size: 1.1rem;
+}
+.img-fluid {
+	width: 100%;
+}
+.arrLeft {
+	margin-left: 10px;
+}
+.arrLeft:hover,
+.sendInvoice:hover {
+	padding-left: 40px !important;
+	cursor: pointer;
+	position: absolute !important;
+	transition: 1s;
+}
