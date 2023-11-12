@@ -11,30 +11,9 @@ const Nav = () => {
 		setToggled(!isToggled);
 	};
 
-	const [isFixed, setIsFixed] = useState(false);
-
-	const scrollThreshold = 140; // Adjust this value based on when you want the navbar to become fixed
-
-	const handleScroll = () => {
-		if (window.scrollY > scrollThreshold) {
-			setIsFixed(true);
-		} else {
-			setIsFixed(false);
-		}
-	};
-
-	useEffect(() => {
-		window.addEventListener("scroll", handleScroll);
-		return () => {
-			window.removeEventListener("scroll", handleScroll);
-		};
-	}, []);
-
 	return (
 		<nav
-			className={`   ${isToggled ? "navbg" : ""} ${
-				isFixed ? "navbar navbar-expand-lg navv" : " navbar navbar-expand-lg  "
-			}`}
+			className={` navbar navbar-expand-lg navv  ${isToggled ? "navbg" : ""} `}
 		>
 			<div className="container ">
 				<Slide direction="left">
