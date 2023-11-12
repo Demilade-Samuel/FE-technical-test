@@ -1,11 +1,11 @@
 .navv {
 	padding: 25px 0 !important;
-	position: fixed !important;
+	position: sticky !important;
 	top: 0;
 	z-index: 99999;
 	width: 100vw !important;
 	background-color: white;
-	transition: opacity 1s ease;
+	transition: 1 opacity 1s ease;
 }
 .navbg {
 	background-color: white;
