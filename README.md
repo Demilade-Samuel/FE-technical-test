@@ -10,8 +10,7 @@ FrontEnd Technical Test
 - [Components](#components)
   - [Nav Component](#nav-component)
   - [Hero Component](#hero-component)
-- [Contributing](#contributing)
-- [License](#license)
+  
 
 ## Introduction
 
@@ -27,7 +26,7 @@ To run the application locally, follow these steps:
 1. Clone the repository:
 
    
-   git clone https://github.com/your-username/your-app.git
+   git clone https://github.com/Demilade-Samuel/FE-technical-test
    
 
 2. Change to App directory
@@ -49,7 +48,7 @@ Note: Navigation would be posibble if there were more pages to link to.
 
 ## nav-component
 
-Components dispay the Logo, navigation links and an action button that should naviate you to a register page
+Components display the Logo, navigation links and an action button that should naviate you to a register page
 
 - Hover on nav links to display effect
 - Select a nav link to fucus effect(no page navigation)
@@ -65,17 +64,6 @@ A Hero content (responsive)
 A get started btn (reponsive)
 A static image gallery (Responsive)
 
-Get started Button would navigate you to the getstarted page(page not created)
 
-In the image gallery section
-In the first frame is a Send Invoice nav link that should take you to a form one the form has been initialised.
-
-## contributing
-
-If you would like to contribute to the development of this project, follow these steps:
-
-Fork the repository.
-Create a new branch for your feature: git checkout -b feature-name.
-Commit your changes: git commit -m 'Add new feature'.
-Push to the branch: git push origin feature-name.
-Submit a pull request.
+#
+Here is a link to preview the design - https://fe-technical-test-sooty.vercel.app/ 
