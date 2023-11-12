@@ -47,6 +47,10 @@ h1 {
 .img-fluid {
 	width: 100%;
 }
+.img-fluid:hover {
+	padding: 20px !important;
+	transition: 1s ease !important;
+}
 .arrLeft {
 	margin-left: 10px;
 }
